@@ -2,9 +2,9 @@
 openssl package for macOS
 
 # Requirements
-MacOS Mojave
+MacOS Catalina
 
-Tested with go version 1.12.5
+Tested with go version 1.14.2
 
 # Build
 $ go get -u github.com/richardpct/macos-openssl
@@ -12,6 +12,6 @@ $ go get -u github.com/richardpct/macos-openssl
 # Usage
 $ cd yourgobindir
 
-$ ./macos-openssl -destdir=whereyouwant
+$ ./macos-openssl -destdir whereyouwant
 
 where destdir is the target directory installation

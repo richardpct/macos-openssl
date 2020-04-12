@@ -16,11 +16,11 @@ var pkg pkgsrc.Pkg
 
 const (
 	name     = "openssl"
-	vers     = "1.0.2s"
+	vers     = "1.1.1f"
 	ext      = "tar.gz"
 	url      = "https://www.openssl.org/source"
 	hashType = "sha256"
-	hash     = "cabd5c9492825ce5bd23f3c3aeed6a97f8142f606d893df216411f07d1abab96"
+	hash     = "186c6bfe6ecfba7a5b48c47f8a1673d0f3b0e5ba2e25602dd23b629975da3f35"
 )
 
 func checkArgs() error {
